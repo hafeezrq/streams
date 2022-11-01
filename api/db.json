@@ -9,6 +9,12 @@
       "title": "Another Stream",
       "description": "This is another wonderful stream.",
       "id": 2
+    },
+    {
+      "title": "My Own Stream",
+      "description": "I have create with my id.",
+      "userId": "104259310802120061040",
+      "id": 3
     }
   ]
 }
