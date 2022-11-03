@@ -27,7 +27,9 @@ class StreamList extends Component {
     if (this.props.currentUserId === stream.userId) {
       return (
         <div className='right floated content'>
-          <div className='ui button primary'>Edit</div>
+          <Link to={`/streams/edit/${stream.id}`} className='ui button primary'>
+            Edit
+          </Link>
           <div className='ui button negative'>Delete</div>
         </div>
       );
