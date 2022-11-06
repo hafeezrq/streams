@@ -1,38 +1,22 @@
 {
   "streams": [
     {
-      "title": "My Stream",
-      "description": "This is a great stream.",
-      "id": 1
-    },
-    {
-      "title": "Another Stream",
-      "description": "This is another wonderful stream.",
-      "id": 2
-    },
-    {
-      "title": "My Own Stream",
-      "description": "I have create with my id.",
-      "userId": "104259310802120061040",
-      "id": 3
-    },
-    {
-      "title": "Unexpected Behaviour",
-      "description": "This behaviour wan not expected.",
-      "userId": "104259310802120061040",
-      "id": 4
-    },
-    {
       "title": "A programmatic Navigation",
       "description": "This is a programmatic navigation system now.",
       "userId": "104259310802120061040",
-      "id": 5
+      "id": 1
     },
     {
       "title": "Refactored StreamCreate",
-      "description": "The StreamCreate was refactored to use StreamForm.",
+      "description": "The StreamCreate was refactored to use StreamForm and a PATCH request instead of PUT.",
       "userId": "104259310802120061040",
-      "id": 6
+      "id": 2
+    },
+    {
+      "title": "My New Stream",
+      "description": "I have create this new stream and an edited id.",
+      "userId": "104259310802120061040",
+      "id": 3
     }
   ]
 }
